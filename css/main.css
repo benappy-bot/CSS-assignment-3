@@ -60,7 +60,7 @@ header {
     grid-area: header; /* keep */
     background: #fff; /* keep */
     text-align: center;
-    line-height: 2rem;
+    line-height: 3rem;
     padding: 2rem 1rem 4rem 1rem;
     font-size: 1.75rem;
 }
@@ -151,33 +151,34 @@ a:hover {
         "typeface typeface"
         "footer footer";  }
 
+header img {
+    display: none;
+}
+
 #arial {
-    grid-area: arial; /* keep */
     padding: 1rem .5rem 1rem 1rem;
 }
 #georgia {
-    grid-area: georgia; /* keep */
     padding: 1rem 1rem 1rem .5rem;
 }
 #pairing {
     padding: 1rem 1rem 3rem 1rem;
   }
 #bobwhite-quail {
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1rem 1rem 1rem 1rem;
   }
 #readability {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: .25rem 1rem 1rem 1rem;
   }
 #line-length {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: .25rem 1rem 1rem 1rem;
   }
 #helvetica {
     margin: 0;
     padding: 1rem 1rem 1rem 1rem;
   }
 #typeface {
-    line-height: 1.75rem; /* I did this just because I thought it looked better with the font and screen size */
-    padding: 1rem 1rem 1rem 1rem;
+    padding: .5rem 1rem 1rem 1rem;
   }
 footer {
     text-align: left;
